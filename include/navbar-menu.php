@@ -1,3 +1,3 @@
 <div class="navbar">
-    <a href="">MENU</a>
+    <a href="menu.php">MENU</a>
 </div>

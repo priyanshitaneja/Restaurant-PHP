@@ -5,12 +5,12 @@
   <div class="main-container">
 <div class="container-left">
 <div class="main-content">
-  <h1>Continue</h1>
+  <h1>Register as ?</h1>
   <button class="btn1">
-    <a href="login-as.php">Login</a>
+    <a href="register.php">Customer</a>
   </button>
   <button class="btn1">
-    <a href="register-as.php">Register</a>
+    <a href="register-res.php">Restaurant</a>
   </button>
 </div>
 

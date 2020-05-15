@@ -80,18 +80,18 @@ nav {
 }
 
 .main-content h1{
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 20px 0;
     font-weight: lighter;
     color: #999999;
 }
 
 .btn1 {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-family: 'DM Mono', monospace;
     text-align: left;
-    background-color: #71cc97;
     color: white;
+    background-color: #71cc97;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 3px #dbdbdb;
@@ -100,6 +100,11 @@ nav {
     width: fit-content;
     /* z-index: 9999; */
 }
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Main container right */
 .bg{

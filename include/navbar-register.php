@@ -1,4 +1,4 @@
 <div class="navbar">
-    <a href="">Register</a>
-    <a href="">Login</a>
+    <a href="register-as.php">Register</a>
+    <a href="login-as.php">Login</a>
 </div>
