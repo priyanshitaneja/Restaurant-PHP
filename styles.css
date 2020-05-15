@@ -22,8 +22,11 @@ nav {
 .navbar-brand {
   font-size: 2.5vw;
   letter-spacing: 2px;
-  color: white;
   /* float: left; */
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar {
@@ -210,7 +213,9 @@ nav {
     text-align: center;
     color: grey;
     font-size: 2vw;
+    letter-spacing: 2px;
     margin-bottom: 40px;
+    font-weight: 300;
 }
 
 .food-item {

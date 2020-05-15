@@ -12,7 +12,7 @@
 <body>
   <nav class="main-nav">
     <div class="navbar-brand">
-      FoodShala
+      <a href="menu.php">FoodShala</a>
     </div>
 
     
