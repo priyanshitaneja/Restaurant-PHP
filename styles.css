@@ -1,0 +1,430 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'DM Mono', monospace;
+}
+
+/* index.html */
+
+/* Navbar */
+nav {
+    background-color: #71cc97;
+    padding: 20px 10vw;
+}
+
+.navbar-brand {
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Main container */
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.container-left , .container-right {
+    width: 50%;
+}
+
+/* Main container -left part */
+.container-left {
+    padding-left: 10vw;
+    padding-right: 5vw;
+}
+
+.container-right{
+    position: relative;
+}
+
+.main-content {
+    padding-top: 15vw;
+}
+
+.main-content h1{
+    font-size: 3vw;
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #999999;
+}
+
+.btn1 {
+    font-size: 2.5vw;
+    font-family: 'DM Mono', monospace;
+    text-align: left;
+    background-color: #71cc97;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px #dbdbdb;
+    padding: 10px 30px;
+    margin: 20px 15px 0 0;
+    width: fit-content;
+    /* z-index: 9999; */
+}
+
+/* Main container right */
+.bg{
+    /* box-sizing: border-box; */
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 15vw;
+    /* z-index: -10; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+/* customerLogin.html */
+
+.login-form {
+    padding-top: 12vw;
+}
+
+.login-h1 {
+    font-size: 1.7vw;
+    margin-bottom: 4vw;
+}
+
+.login-form input {
+    display: block;
+    font-size: 1.5vw;
+    font-family: 'DM Mono', monospace;
+    text-align: left;
+    /* background-color: #71cc97; */
+    /* color: white; */
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 2px 3px #dbdbdb;
+    padding: 10px 30px;
+    margin: 20px 15px 0 0;
+    /* width: fit-content; */
+}
+
+.login-h1{
+    font-size: 3vw;
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #999999;
+}
+
+/* Reg form */
+.reg-form {
+    padding-top: 8vw;
+}
+
+.reg-h1 {
+    font-size: 2vw;
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.reg-form input {
+    display: block;
+    font-size: 1.5vw;
+    font-family: 'DM Mono', monospace;
+    text-align: left;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 2px 3px #dbdbdb;
+    padding: 10px 30px;
+    margin: 20px 15px 0 0;
+}
+.reg-form label{
+    color: gray;
+    margin-right: 12px;
+    font-size: 1.5vw;
+    
+}
+#veg, #non-veg{
+    display: inline;
+    margin-right: 5px;
+    box-shadow: none;
+    width: 15px;
+    height: 15px;
+    margin-top: 30px;
+}
+.reg-btn {
+    font-size: 2vw;
+}
+
+
+
+
+
+
+/* Media query */
+@media (min-width: 1015px) and (max-width:1080px) {
+    .bg{
+        width: 60%;
+        /* bottom: 20%; */
+        margin: 0 auto;
+        z-index: -1;
+        left: 0;
+        right: 0;
+    }
+    .navbar-brand {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .main-container {
+        z-index: 1;
+        flex-direction: column;
+    }
+    .container-left , .container-right{
+        width: 100%;
+        padding: 0;
+    }
+
+    /* login page */
+    .login-form {
+        /* display: flex; */
+        flex-direction: column;
+        z-index: 1;
+        padding-top: 5vw;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    .login-h1{
+        font-size: 5vw;
+        margin-bottom: 5vw ;
+
+    }
+    .login-form input{
+        font-size: 4vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 20px auto;
+        margin-top: 0;
+        padding-bottom: 10px 20px;
+    }
+    .login-btn{
+        margin: 0 auto;
+        font-size: 5vw;
+    }
+
+    /* Reg form */
+    .reg-form {
+        padding-top: 3vh;
+        text-align: center;
+    }
+    .reg-form h1{
+        font-size: 5vw;
+        margin-bottom: 2vh ;
+    }
+    .reg-form input{
+        font-size: 3vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 15px auto;
+        margin-top: 0;
+        padding: 10px 20px;
+    }
+    .reg-form label{
+        font-size: 3vw;
+        text-align: left;
+    }
+    #veg, #non-veg{
+        margin: 20px 10px;
+    }
+    .reg-btn{
+        margin: 10px auto;
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 800px) and (max-width:1014px) {
+    .navbar-brand {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .main-container {
+        z-index: 1;
+        flex-direction: column;
+    }
+    .container-left , .container-right{
+        width: 100%;
+        padding: 0;
+    }
+    .bg{
+        width: 90%;
+        margin: 0 auto;
+        z-index: -1;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* Reg form */
+    .reg-form {
+        padding-top: 3vh;
+        text-align: center;
+    }
+    .reg-form h1{
+        font-size: 5vw;
+        margin-bottom: 2vh ;
+    }
+    .reg-form input{
+        font-size: 3vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 15px auto;
+        margin-top: 0;
+        padding: 10px 20px;
+    }
+    .reg-form label{
+        font-size: 3vw;
+        text-align: left;
+    }
+    #veg, #non-veg{
+        margin: 20px 10px;
+    }
+    .reg-btn{
+        margin: 10px auto;
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 601px) and (max-width:799px){
+    html{
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .main-container {
+        z-index: 1;
+        flex-direction: column;
+    }
+    .container-left , .container-right{
+        width: 100%;
+        padding: 0;
+    }
+    .bg{
+        width: 90%;
+        margin: 0 auto;
+        z-index: -1;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* login page */
+    .login-form{
+        z-index: 1;
+    }
+    .login-form input{
+        font-size: 4vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 20px auto;
+        margin-top: 0;
+        padding-bottom: 10px 20px;
+    }
+    /* Reg page */
+    .reg-form input{
+        font-size: 2vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 20px auto;
+        margin-top: 0;
+        padding-bottom: 10px 20px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:600px) {
+    html{
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+    .container-left , .container-right{
+        width: 100%;
+        padding: 0;
+    }
+    .main-content {
+        padding-top: 5vw;
+    }
+    .main-content h1{
+        font-size: 5vw;
+        margin-bottom: 1vw ;
+    }
+    .btn1{
+        font-size: 4vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg{
+        width: 90%;
+        margin: 0 auto;
+        z-index: -1;
+        left: 0;
+        bottom: 5vh;
+    }
+
+    /* login page */
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        padding-top: 5vw;
+    }
+    .login-form h1{
+        font-size: 5vw;
+        margin-bottom: 5vw ;
+    }
+    .login-form input{
+        font-size: 4vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 20px auto;
+        margin-top: 0;
+        padding-bottom: 10px 20px;
+    }
+    .login-btn{
+        margin: 0 auto;
+    }
+
+    /* Reg form */
+    .reg-form {
+        padding-top: 1vh;
+    }
+    .reg-form h1{
+        font-size: 10vw;
+        margin-bottom: 5vw ;
+    }
+    .reg-form input{
+        font-size: 3vw;
+        display: block;
+        /* margin: 2vw auto; */
+        margin: 10px auto;
+        margin-top: 0;
+        padding: 10px 20px;
+    }
+    .reg-form label{
+        font-size: 3vw;
+    }
+    #veg, #non-veg{
+        margin: 0;
+    }
+    .reg-btn{
+        margin: 10px auto;
+    }
+}
