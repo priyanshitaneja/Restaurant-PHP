@@ -3,11 +3,11 @@
       <div class="container-left">
         <form class="reg-form">
           <h1 class="reg-h1">Register your Restaurant</h1>
-          <input type="text" placeholder="Email">
-          <input type="password" placeholder="Password">
-          <input type="password" placeholder="Confirm Password">
-          <input type="text" placeholder="Address">
-          <button class="btn1 reg-btn">
+          <input type="name" name="" id="" placeholder="Restaurant Name" required>
+          <input type="text" placeholder="Email" required>
+          <input type="text" placeholder="Address" required>
+          <input type="password" placeholder="Password" required>
+          <button class="btn1 reg-btn" type="submit">
             Register
           </button>
         </form>

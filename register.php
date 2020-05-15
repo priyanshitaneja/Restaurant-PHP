@@ -3,9 +3,10 @@
       <div class="container-left">
         <form class="reg-form">
           <h1 class="reg-h1">Register</h1>
-          <input type="text" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <input type="password" placeholder="Confirm Password" />
+          <input type="text" name="" id="" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required />
+          <input type="number" name="" id="" placeholder="Phone Number" required>
+          <input type="password" placeholder="Password" required />
           <input type="checkbox" id="veg" name="veg" value="veg" />
           <label for="veg">Veg</label>
           <input type="checkbox" id="non-veg" name="non-veg" value="non-veg" />

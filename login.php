@@ -3,9 +3,9 @@
       <div class="container-left">
         <form class="login-form">
           <h1 class="login-h1">Login</h1>
-          <input type="text" placeholder="Email">
-          <input type="password" placeholder="Password">
-          <button class="btn1 login-btn">
+          <input type="text" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button class="btn1 login-btn" type="submit">
             Login
           </button>
         </form>
