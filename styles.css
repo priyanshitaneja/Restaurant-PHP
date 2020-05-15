@@ -116,7 +116,7 @@ nav {
 
 /* Reg form */
 .reg-form {
-    padding-top: 5vw;
+    padding-top: 2vw;
 }
 
 .reg-h1 {
@@ -154,6 +154,7 @@ nav {
 }
 .reg-btn {
     font-size: 2vw;
+    /* width: inherit; */
 }
 
 

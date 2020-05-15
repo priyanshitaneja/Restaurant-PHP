@@ -5,6 +5,7 @@
   <input type="name" name="" id="" placeholder="Restaurant Name" required>
   <input type="text" placeholder="Email" required>
   <input type="text" placeholder="Address" required>
+  <input type="number" name="" id="" placeholder="Phone Number" required>
   <input type="password" placeholder="Password" required>
   <button class="btn1 reg-btn" type="submit">
     Register
