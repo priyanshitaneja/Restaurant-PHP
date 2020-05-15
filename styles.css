@@ -12,12 +12,38 @@ html, body {
 nav {
     background-color: #71cc97;
     padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-brand {
   font-size: 2.5vw;
   letter-spacing: 2px;
   color: white;
+  /* float: left; */
+}
+
+.navbar {
+    align-self: center;
+}
+
+.navbar a{
+    /* box-sizing: border-box; */
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    color: white; 
+    text-decoration: none;
+    font-weight: 200;
+    padding: 10px 20px;
+    border: solid 0.5px transparent;
+}
+
+.navbar a:hover{
+    font-weight: 400;
+    /* text-decoration: underline; */
+    border: solid 0.5px white;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px #dbdbdd;
 }
 
 /* Main container */
@@ -84,7 +110,7 @@ nav {
 /* customerLogin.html */
 
 .login-form {
-    padding-top: 12vw;
+    padding-top: 10vw;
 }
 
 .login-h1 {

@@ -1,5 +1,9 @@
 <?php include 'include/header.php' ?>
+<!-- <?php include './include/navbar-menu.php' ?> -->
 
+  </nav>
+  <div class="main-container">
+<div class="container-left">
 <form class="login-form">
   <h1 class="login-h1">Login as Restaurant</h1>
   <input type="email" placeholder="Email" name="email">
@@ -8,5 +12,5 @@
     Login
   </button>
 </form>
-
+<?php include 'include/container-right.php' ?>
 <?php include 'include/footer.php' ?>
