@@ -38,9 +38,9 @@ nav {
     padding-right: 5vw;
 }
 
-.container-right{
+/* .container-right{
     position: relative;
-}
+} */
 
 .main-content {
     padding-top: 15vw;
@@ -71,10 +71,10 @@ nav {
 /* Main container right */
 .bg{
     /* box-sizing: border-box; */
-    width: 40%;
+    width: 50%;
     position: absolute;
     right: 0px;
-    top: 15vw;
+    top: 5vw;
     /* z-index: -10; */
     /* align-items: center;
     justify-content: center; */
