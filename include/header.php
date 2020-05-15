@@ -14,3 +14,5 @@
     <nav class="main-nav">
       <div class="navbar-brand">FoodShala</div>
     </nav>
+    <div class="main-container">
+      <div class="container-left">
