@@ -6,7 +6,7 @@ html, body {
     font-family: 'DM Mono', monospace;
 }
 
-/* index.html */
+/* index.php */
 
 /* Navbar */
 nav {
@@ -14,6 +14,9 @@ nav {
     padding: 20px 10vw;
     display: flex;
     justify-content: space-between;
+    /* position: fixed;
+    top: 0; */
+    /* width: 100%; */
 }
 
 .navbar-brand {
@@ -27,6 +30,7 @@ nav {
     align-self: center;
 }
 
+/* Navbar for other pages */
 .navbar a{
     /* box-sizing: border-box; */
     font-size: 1.5vw;
@@ -46,6 +50,7 @@ nav {
     box-shadow: 0.5px 0.5px #dbdbdd;
 }
 
+
 /* Main container */
 .main-container {
     position: relative;
@@ -53,6 +58,8 @@ nav {
     flex-direction: row;
     align-items: stretch;
 }
+
+/* for index and login and register pages */
 
 .container-left , .container-right {
     width: 50%;
@@ -105,7 +112,6 @@ nav {
     /* align-items: center;
     justify-content: center; */
 }
-
 
 /* customerLogin.html */
 
@@ -183,6 +189,91 @@ nav {
     /* width: inherit; */
 }
 
+
+
+
+/* Main container content for menu */
+
+#menu {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#menu h1{
+    text-align: center;
+    color: grey;
+    font-size: 2vw;
+    margin-bottom: 40px;
+}
+
+.food-item {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.food-img img{
+    width: 150px;
+    height: 150px;
+}
+
+.food-details {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.food-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+}
+
+.food-name {
+    font-size: 1.5vw;
+}
+
+.food-price{
+    color: grey;
+    font-size: 1.2vw;
+}
+
+.food-des {
+    color: grey;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.order-food {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order {
+    background-color: crimson;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 1px 2px #dbdbdd;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 2px;
+}
+
+.order:hover {
+    color: crimson;
+    background-color: white;
+    border-color: crimson;
+    font-weight: 700;
+}
 
 
 
