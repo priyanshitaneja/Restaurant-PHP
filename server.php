@@ -51,6 +51,9 @@ if(count($errors) == 0) {
     //run the query
     mysqli_query($conn, $query);
 
+
+    $_SESSION['email'] = $email;
+
     $_SESSION['success'] = "You are successfully registered. Welcome to FoodShala!";
     header('location: menu.php');
 }

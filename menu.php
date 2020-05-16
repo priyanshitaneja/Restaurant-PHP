@@ -1,5 +1,21 @@
 <?php include 'include/header.php' ?>
-<?php include 'include/navbar-register.php' ?>
+
+<?php 
+
+session_start();
+
+if(isset($_SESSION['email'])){
+    include 'include/navbar-cart.php'
+} else {
+    include 'include/navbar-register.php'
+}
+
+?>
+
+
+
+
+
 </nav>
 <div class="main-container">
     <div id="menu">
