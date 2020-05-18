@@ -10,7 +10,7 @@
 	// else {
 ?> -->
 <?php require_once 'include/header.php' ?>
-<?php require_once 'include/navbar-cart.php' ?>
+<?php require_once 'include/navbar-register.php' ?>
 
 </nav>
 <div class="main-container">

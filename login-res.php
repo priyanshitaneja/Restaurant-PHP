@@ -9,7 +9,7 @@
   <input type="email" placeholder="Email" name="email">
   <input type="password" placeholder="Password" name="password" required >
   <button class="btn1 login-btn" type="submit" name="login" required >
-    Login
+    <a href="restaurant-home.php">Login</a> 
   </button>
 </form>
 <?php include 'include/container-right.php' ?>

@@ -22,8 +22,8 @@
       <input type="radio" id="non-veg" name="preference" value="non-veg" required/>
       <label for="non-veg">Non-veg</label><br>
       
-      <button class="btn1 reg-btn" name="register-user">
-        Register
+      <button class="btn1 reg-btn" name="register-user" >
+        <a href="login.php">Register</a> 
       </button>
     </form>
 

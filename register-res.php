@@ -12,7 +12,7 @@
   <input type="tel" name="" id="" placeholder="Phone Number" required>
   <input type="password" placeholder="Password" required>
   <button class="btn1 reg-btn" type="submit">
-    Register
+    <a href="login-res.php">Register</a>
   </button>
 </form>
 <?php include 'include/container-right.php' ?>
