@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 require_once 'config.php';
 
 //Register user
@@ -83,4 +83,4 @@ if(isset($_POST['login-user'])) {
 }
 
 
-?>
+?> -->

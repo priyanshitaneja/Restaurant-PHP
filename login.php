@@ -1,4 +1,6 @@
-<!-- <?php include 'server.php' ?> -->
+<!-- <?php 
+//include 'server.php' 
+?> -->
 <?php include 'include/header.php' ?>
 
 
@@ -12,7 +14,7 @@
       <input type="text" name="email" placeholder="Email" required>
       <input type="password" name="password" placeholder="Password" required>
       <button class="btn1 login-btn" type="submit" name="login-user">
-        Login
+        <a href="menu.php">Login</a>
       </button>
     </form>
 
