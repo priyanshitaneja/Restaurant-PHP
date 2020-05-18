@@ -1,20 +1,16 @@
-<?php include 'include/header.php' ?>
+<!-- <?php 
+	// require 'files/connection.php';
+	// session_start();
+	// error_reporting(E_ERROR | E_PARSE);
 
-<?php 
-
-session_start();
-
-if(isset($_SESSION['email'])){
-    include 'include/navbar-cart.php'
-} else {
-    include 'include/navbar-register.php'
-}
-
-?>
-
-
-
-
+	// if(strlen($_SESSION['custid'])==0)
+	// {
+	// header('location:login.php');
+	// }
+	// else {
+?> -->
+<?php require_once 'include/header.php' ?>
+<?php require_once 'include/navbar-cart.php' ?>
 
 </nav>
 <div class="main-container">

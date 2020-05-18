@@ -1,4 +1,7 @@
+<!-- <?php include 'server.php' ?> -->
 <?php include 'include/header.php' ?>
+
+
 <?php include './include/navbar-menu-login.php' ?>
 
 </nav>

@@ -1,13 +1,3 @@
-<?php 
-require_once 'config.php';
-
-//Register user
-$name = mysqli_real_escape_string($conn, $_POST['name']);
-$email = mysqli_real_escape_string($conn, $_POST['email']);
-$phone = mysqli_real_escape_string($conn, $_POST['phone']);
-$password = mysqli_real_escape_string($conn, $_POST['password']);
-$preference = mysqli_real_escape_string($conn, $_POST['preference']);
-
 //if(!empty($name) && !empty($email) && !empty($phone) && !empty($password) && !empty($preference)) {
 
 //}
@@ -71,9 +61,8 @@ if(isset($_POST['login-user'])) {
         
         if(mysqli_num_rows($results)) {
             $_SESSION['name']=$name;
-            $_SESSION['password']=$password;
             $_SESSION['success']="You are now logged in!";
-            // header('location: menu.php');
+            header('location: menu.php');
         } else {
             array_push($errors, "Wrong email/password, Please try again");
         }
@@ -81,6 +70,3 @@ if(isset($_POST['login-user'])) {
 
     }
 }
-
-
-?>
